@@ -1,0 +1,20 @@
+.bannerLink {
+  opacity: 0.7;
+}
+.bannerLink:hover {
+  opacity: 1;
+}
+.heading {
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 20px;
+  border-bottom: 2px solid #270c03;
+  text-align: center;
+  width: fit-content;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+.bannerDiv {
+  margin: 0 auto;
+  width: 97%;
+}

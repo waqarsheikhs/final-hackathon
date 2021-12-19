@@ -1,0 +1,83 @@
+.radio {
+  display: flex !important;
+  flex-direction: row !important;
+}
+.brands {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto !important;
+  width: 80% !important;
+}
+.brands_div {
+  margin-left: 10px !important;
+  width: 40%;
+}
+.modal_Inputs1 {
+  display: flex;
+  justify-content: space-around !important;
+  width: 80%;
+  margin: 0 auto;
+}
+.short_Input {
+  margin-left: 5px;
+}
+.radioBtn {
+  display: flex;
+  justify-content: space-between;
+}
+.error {
+  color: red;
+}
+.ml-5 {
+  margin-left: 15px;
+}
+.modal_Inputs {
+  width: 80%;
+  margin: 0 auto;
+}
+.modalFooter {
+  display: flex;
+  justify-content: flex-end !important;
+}
+.modalFooter > button {
+  margin-left: 20px;
+}
+.myOrderBtn {
+  margin: 0 20px;
+  /* padding: 20px; */
+  width: 300px !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .brands {
+    display: block;
+    width: 80% !important;
+  }
+  .brands_div {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .brands {
+    display: block;
+    width: 80% !important;
+  }
+  .brands_div {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 540px) {
+  .modal_Inputs1 {
+    display: block;
+  }
+  .radioBtn {
+    display: block;
+  }
+}
+@media screen and (max-width: 400px) {
+  .myOrderBtn {
+    width: 100% !important;
+    padding: 10px;
+    margin: 0 auto !important;
+  }
+}

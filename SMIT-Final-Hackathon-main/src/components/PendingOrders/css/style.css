@@ -1,0 +1,12 @@
+.pendingDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.table_div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}

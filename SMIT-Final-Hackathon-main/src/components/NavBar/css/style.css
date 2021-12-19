@@ -1,0 +1,131 @@
+.navBar {
+  /* background-color: #d7ccc8; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.our_Link {
+  text-decoration: none;
+  color: #5d4037;
+  width: 100%;
+  height: 100%;
+}
+.sideBtn {
+  color: #583a39 !important;
+}
+.sideBtn :hover {
+  background-color: #bcaaa4 !important;
+}
+
+.our_Link:hover {
+  color: #5d4037 !important;
+}
+
+.txt_white {
+  color: #fff !important;
+}
+
+.logo {
+  width: 20%;
+  margin-left: 20px !important;
+}
+
+.mr-100 {
+  margin-right: 250px;
+  display: flex;
+}
+
+.my_menu {
+  display: flex;
+  width: 100%;
+}
+
+.content_Body {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.img {
+  width: 100%;
+}
+
+.myNavBar {
+  /* text-align: center; */
+  display: none;
+}
+
+.menuItem {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  padding: 8px;
+  color: #087716 !important;
+  font-weight: 500 !important;
+}
+
+.menuItem:hover {
+  color: #08e225 !important;
+}
+
+.menuItem1 {
+  text-align: center;
+  display: block;
+  font-weight: 500 !important;
+  color: #08e225 !important;
+  text-decoration: none;
+  padding: 8px;
+  font-size: 12px;
+  border-bottom: 2px solid rgba(74, 67, 64, 0) !important;
+  margin-left: 2px;
+  /* width: 100%; */
+}
+.menuItem2 {
+  text-align: center;
+  background-color: #fff;
+  color: #08e225 !important;
+  display: block;
+  font-weight: 500 !important;
+  text-decoration: none;
+  border: none;
+  padding: 8px;
+  font-size: 12px;
+  border-bottom: 2px solid rgba(74, 67, 64, 0) !important;
+  margin-left: 2px;
+  /* width: 100%; */
+}
+
+.menuItem1:hover {
+  /* color: #bcaaa4 !important; */
+  color: #087716 !important;
+  border-bottom: 2px solid #087716 !important;
+}
+.sideMenu {
+  display: none;
+}
+
+@media screen and (max-width: 770px) {
+  .menuItem {
+    display: none;
+  }
+  .menuItem1 {
+    padding: 2px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .menuItem1 {
+    padding: 2px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .menuItem1 {
+    display: none;
+  }
+  .sideMenu {
+    display: block;
+  }
+  .logo {
+    width: 180px;
+  }
+}

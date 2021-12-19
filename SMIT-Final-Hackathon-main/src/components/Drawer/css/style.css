@@ -1,0 +1,55 @@
+.myBar {
+  height: 60px !important;
+  background-color: #583a39 !important;
+}
+.css-3v9zut {
+  min-height: 0px !important;
+}
+.css-ttn1xo {
+  padding: 0px !important;
+  width: 0px !important;
+}
+.navMenu {
+  display: none;
+}
+.navMenu1 {
+  display: none;
+}
+.myTool {
+  justify-content: space-between !important;
+}
+
+.sideBtn {
+  color: #583a39 !important;
+}
+.sideBtn :hover {
+  background-color: #bcaaa4 !important;
+}
+.searchMain {
+  background: #fff !important;
+  width: 60%;
+  flex: 0.95;
+  display: flex;
+}
+.searchD {
+  display: none;
+}
+@media screen and (max-width: 770px) {
+  .navMenu {
+    display: block;
+  }
+}
+@media screen and (max-width: 380px) {
+  .navMenu1 {
+    display: block;
+  }
+  .searchD {
+    display: flex;
+  }
+  .searchMain {
+    display: none;
+  }
+  .myTool {
+    justify-content: flex-start !important;
+  }
+}

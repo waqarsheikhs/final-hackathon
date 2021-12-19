@@ -1,0 +1,81 @@
+.main {
+  background-color: #a88a81;
+  padding: 50px;
+}
+.row1 {
+  color: #fff;
+  padding: 10px;
+}
+.footerRow {
+  color: #fff;
+  padding: 5px 25px;
+}
+.list {
+  /* text-decoration: none; */
+  display: inline;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: 900;
+  border: 1px solid #fff;
+  padding: 10px;
+}
+.list:hover {
+  background-color: #270c03;
+}
+.footerNews {
+  display: flex;
+}
+.newsletter {
+  flex: 0.5;
+}
+.newsletter1 {
+  flex: 0.5;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: middle;
+  font-size: 18px;
+  padding-right: 10px;
+}
+.footerHeading {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 30px;
+  /* text-align: center; */
+}
+.footerList {
+  text-decoration: none;
+  list-style-type: none;
+  list-style-position: inside;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 930px) {
+  .footerNews {
+    display: block;
+  }
+  .newsletter1 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .list {
+    /* text-decoration: none; */
+    display: inline;
+    margin: 1px;
+    font-size: 14px;
+    font-weight: 900;
+    border: 1px solid #fff;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .list {
+    /* text-decoration: none; */
+    display: block;
+    margin: 1px;
+  }
+  .newsletter1 {
+    font-size: 14px;
+  }
+}

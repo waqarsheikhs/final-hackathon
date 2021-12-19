@@ -1,0 +1,61 @@
+.Quizzes-Div{
+    padding: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    .Quizzes-heading{
+        background-color: #fff;
+        height: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        font-size: large;
+        font-weight: 700;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.3);
+        -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.3);
+        -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.3);
+    }
+    .site-card-wrapper{
+        display: none;
+    }
+    .Content-Table{
+    width: 100%;
+    }
+    @media screen and (max-width: 780px) {
+        .site-card-wrapper{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .Card-col{
+                margin: 5px;
+                min-width: 250px;
+                max-width: 250px;
+                .Card{
+                    border-radius: 15px;
+                    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.3);
+                    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.3);
+                    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.3);
+                    .p-row{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        .span{
+                            margin-left: 5px;
+                            text-align: right;
+                            min-height: fit-content;
+                            overflow:hidden;
+                        }
+                    }
+                }
+            }
+        }
+        .Content-Table{
+            display: none;
+        }
+    }
+    
+}
